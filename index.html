@@ -27,13 +27,21 @@
     <a target="_blank" href="https://www.google.com">Link en nueva ventana</a><br>
     <img src="img/IMG_0168.png" width="200"/>
     <hr>
-    <form>
+
+    <form action="/formulaio" method="post">
         <label for="nombre" >Nombre</label>
         <input id="nombre" type="text" placeholder="Escribe tu nombre" name="nombre"/>
         <br>
+
         <label for="apellido" >Apellido</label>
-        <input id="apellido" type="text" placeholder="Escribe tu apellido" name="apellido"/><br>
+        <input id="apellido" type="text" placeholder="Escribe tu apellido" name="apellido"/>
+        <br>
+
+        <label for="comentario">Comentario</label>
         <textarea cols="50" rows="10" id="comentario" placeholder="Deja tu comentario" name="comentario" ></textarea>
+        <br>
+
+        <input type="submit">
     </form>
 </body>
 </html>

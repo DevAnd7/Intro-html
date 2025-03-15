@@ -15,7 +15,7 @@ CONSEJOS:
 
 - atributo 'name': sirve para identificar el campo en el servidor cuando el formulario fue enviado
 
--
+-Cuando se envia un formulario tenemos dos metodos GET: para enviar los valores que estan dentro de los campos a traves de la URL. POST: enviaria los valores en las cabeceras y no en el URL
 
 TERMINOS:
 -Concatenar: unir variables en una sola linea
