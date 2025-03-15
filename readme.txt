@@ -9,6 +9,8 @@ CONSEJOS:
 
 - <a href=""> para hacer links <a target="" href=""> para hacer link en una nueva ventana
 
+- <img src="" />: la etiqueta de imagen se cierra directamente
+
 TERMINOS:
 -Concatenar: unir variables en una sola linea
 
