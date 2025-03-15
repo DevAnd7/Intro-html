@@ -4,18 +4,28 @@
     <title>Mi primera pagina web</title>
 </head>
 <body>
-    <h1>Mi Primer Heading</h1>
-    <h2>Mi segundo Heading</h2>
-    <h3>Mi Tercer Heading</h3>
-    <h4>Mi Cuarto Heading</h4>
-    <h5>Mi Quinto Heading</h5>
-    <h6>Mi Sexto Heading</h6>
+    <h1>Titulo</h1>
+    <h2>Subtitulo</h2>
+
+    <!-- 'ul' Listas no ordenadas -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!--'ol' Lista ordenada-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
     <p>Esto seria un parrafo</p>
     <p>Cada vez que coloquemos una linea con las P estamos separando el parrafo, como un punto y aparte</p>
-    <hr>
-    <h2>Separando secciones</h2>
-    <p>Con hr podemos separar secciones de la app con una linea</p>
-    <!-- Finalmente esta es la etiqueta para comentar en html -->
+    <hr> <!-- Linea para separar secciones -->
      <p>
         Ahora vamos a hacer un texto mucho mas largo y <span style="color:blue">es para mostrar la utilidad de la etiqueta span.</span> Esta sirve para referenciar partes del texto para utilizarlas luego.
     </p>
@@ -23,12 +33,14 @@
         Ahora vamos hacer un texto cualquiera para mostrar la utilidad de 'br'.<br>
         Esta sirve para poder hacer saltos de linea
     </p>
+    <!-- Hiper vinculos -->
     <a href="https://www.google.com">Link dentro de mi pagina</a>
     <br>
     <a target="_blank" href="https://www.google.com">Link en nueva ventana</a>
     <img src="img/IMG_0168.png" width="200"/>
     <hr>
 
+    <!-- Formulario -->
     <form action="/formulaio" method="post">
         <label for="nombre" >Nombre</label>
         <input id="nombre" type="text" placeholder="Escribe tu nombre" name="nombre"/>
@@ -42,6 +54,7 @@
         <textarea cols="50" rows="10" id="comentario" placeholder="Deja tu comentario" name="comentario" ></textarea>
         <br>
 
+        <!-- Formulario con texto por defecto-->
         <h3>Valor por defecto</h3>
         <p>Asi podemos colocar los input con valores por defecto</p>
         <label for="nombre1" >Nombre</label>
@@ -56,6 +69,7 @@
         <textarea id="comentario1" placeholder="Deja tu comentario" name="comentario1" >Asi puedo poner un valor por defecto</textarea>
         <br>
 
+        <!-- Botones -->
         <button type="button">Tipo Boton</button>
         <button type="reset">Tipo Reset</button>
         <button type="submit">Tipo Submit</button>
