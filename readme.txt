@@ -11,6 +11,12 @@ CONSEJOS:
 
 - <img src="" />: la etiqueta de imagen se cierra directamente
 
+- atributo 'id': sirve para identificar un elemento para luego darle caracteristicas con JS por ejemplo
+
+- atributo 'name': sirve para identificar el campo en el servidor cuando el formulario fue enviado
+
+-
+
 TERMINOS:
 -Concatenar: unir variables en una sola linea
 
