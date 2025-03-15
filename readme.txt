@@ -7,6 +7,8 @@ CONSEJOS:
 
 - <span>: la etiquetq span sirve para referenciar texto
 
+- <a href=""> para hacer links <a target="" href=""> para hacer link en una nueva ventana
+
 TERMINOS:
 -Concatenar: unir variables en una sola linea
 
